@@ -1,0 +1,23 @@
+{
+  "name": "ars-functional",
+  "version": "0.0.1",
+  "description": "Functional Programming Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volem/ars-functional.git"
+  },
+  "keywords": [
+    "functional",
+    "programming"
+  ],
+  "author": "Volem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volem/ars-functional/issues"
+  },
+  "homepage": "https://github.com/Volem/ars-functional#readme"
+}
