@@ -1,6 +1,6 @@
 {
   "name": "ars-functional",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Functional Programming Utils",
   "main": "index.js",
   "scripts": {
