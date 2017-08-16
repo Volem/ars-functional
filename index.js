@@ -8,13 +8,17 @@ const mixfn = (obj = {}, ...fns) => {
 		return result;
 	}, obj);
 };
+const filter = fn => data => Array.prototype.filter.call(data, fn);
+const map = fn => data => Array.prototype.map.call(data, fn);
 
 module.exports = {
 	compose : compose,
 	pipe : pipe,
 	clone : clone,
 	mixobj : mixobj,
-	mixfn : mixfn
+	mixfn : mixfn,
+	filter : filter,
+	map : map
 };
 
 
