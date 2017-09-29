@@ -15,7 +15,7 @@ const getPropertyValue = (propertyName = '') => (obj = Object) => {
 };
 
 const predicateDefault = (val) => {
-	return val | true;
+	return val || true;
 };
 
 const removeBy = (predicate = predicateDefault) => (howMany = 1) => (arr = Array(0)) => {
