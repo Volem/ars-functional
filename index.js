@@ -10,9 +10,13 @@ const mixfn = (obj = {}, ...fns) => {
 };
 const filter = fn => data => Array.prototype.filter.call(data, fn);
 const map = fn => data => Array.prototype.map.call(data, fn);
+const getPropertyValue = (propertyName = '') => (obj = Object) => {
+	return obj.hasOwnProperty(propertyName) ? obj[propertyName] : undefined;
+};
 
 module.exports = {
 	compose : compose,
+	getPropVal : getPropertyValue,
 	pipe : pipe,
 	clone : clone,
 	mixobj : mixobj,
