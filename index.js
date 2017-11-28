@@ -44,7 +44,8 @@ module.exports = {
 	mixfn : mixfn,
 	filter : filter,
 	map : map,
-	removeBy : removeBy
+	removeBy : removeBy,
+	replaceAll : replaceAll
 };
 
 
