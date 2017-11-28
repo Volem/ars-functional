@@ -33,6 +33,8 @@ const removeBy = (predicate = predicateDefault) => (howMany = 1) => (arr = Array
 	return arrClone;
 };
 
+const replaceAll = (target, search, replacement) => target.split(search).join(replacement);
+
 module.exports = {
 	compose : compose,
 	getPropVal : getPropertyValue,
